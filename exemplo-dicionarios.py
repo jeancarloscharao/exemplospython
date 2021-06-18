@@ -1,6 +1,8 @@
 
 pessoa = {'nome': 'Jean Carlos', 'idade': 39, 'cidade' : 'Porto Alegre', 'cursos': []}
 
+pessoa['idade'] = 35
+
 print(pessoa)
 
 print(pessoa['nome'])
@@ -28,6 +30,10 @@ pessoa.update({'idade': 40})
 print(pessoa)
 
 del pessoa['cursos']
+
+print(pessoa)
+
+pessoa.clear()
 
 print(pessoa)
 
